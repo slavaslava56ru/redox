@@ -1,5 +1,6 @@
 [source]
-git = "https://gitlab.redox-os.org/redox-os/kernel.git"
+git = "https://github.com/slavaslava56ru/kernel.git"
+branch = "claude-code"
 
 [build]
 template = "custom"

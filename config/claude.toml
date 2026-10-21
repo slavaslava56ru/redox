@@ -1,0 +1,14 @@
+# Desktop image for running Claude Code on Redox.
+# kernel, relibc and base are built from source (the forks' claude-code branches, see their
+# recipes) since they carry fixes needed by multithreaded Node.js programs.
+include = ["desktop.toml"]
+
+[general]
+filesystem_size = 2048
+
+[packages]
+kernel = "source"
+relibc = "source"
+base = "source"
+nodejs-21 = {}
+ripgrep = {}
